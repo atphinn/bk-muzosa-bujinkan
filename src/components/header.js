@@ -22,16 +22,16 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
-            padding: `0 20px 0 30px`,
+            padding: `0 20px 0 0`,
           }}
         >
           {siteTitle}
         </Link>
 
-        <Link 
-        id="typeContainer"
+        <Link
+            to="/#punch"
           style={{
-          to:`/page-2/`,
+
           color: `white`,
           textDecoration: `none`,
           padding: `0 20px 0 0`,
@@ -39,9 +39,9 @@ const Header = ({ siteTitle }) => (
         >
         About
         </Link>
-       
-        <Link 
-        to="/contact/"
+
+        <Link
+        to="/#map"
           style={{
           color: `white`,
           textDecoration: `none`,

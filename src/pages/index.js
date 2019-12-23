@@ -25,7 +25,6 @@ const MyMapComponent = compose(
     </GoogleMap>
 ));
 
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -35,7 +34,8 @@ const IndexPage = () => (
         id="/page-2/">
           <img src={require('../images/about.jpg')} alt="jumbotron" className="img-responsive" />
         </Link>
-          <img src={require('../images/aboutTop.jpg')} alt="Punch and evasion" className="img-responsive" />
+          <div id="seperate"></div>
+          <img src={require('../images/aboutTop.jpg')} alt="Punch and evasion" className="img-responsive" id="about" />
           <div id="typeContainer">
               <h1>What is BK Muzosa Bujinkan</h1>
               <p>Brooklyn Muzosa Bujikan Dojo embraces the spirit of Budo - an armed and unarmed historical style of Martial Arts that pre dates modern practices such a Judo and Akido. Known as a living art, Bujinkan Budo Taijutsu is applicable within our modern culture.Training in the evenings in all weather, we believe the way of Budo, is to practice it in all situations and in all environments.</p>
@@ -44,7 +44,7 @@ const IndexPage = () => (
       </div>
         <div id="seperate"></div>
         <div id="bujinBanner">
-            <img src={require('../images/masaaki-hatsumi.jpg')} alt="Soke" className="img-responsive" />
+            <img src={require('../images/masaaki-hatsumi.jpg')} alt="Soke" className="img-responsive" id="soke" />
             <div id="typeContainer2">
                 <h1>History of the Bujinkan</h1>
 
@@ -56,6 +56,7 @@ const IndexPage = () => (
                 </p>
             </div>
         </div>
+        <div id="seperate"></div>
         <div id='map'>
             <MyMapComponent isMarkerShown/>
         </div>
