@@ -22,14 +22,14 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
-            padding: `0 20px 0 0`,
+            padding: `0 20px 0 10px`,
           }}
         >
           {siteTitle}
         </Link>
 
         <Link
-            to="/#punch"
+            to="/#about"
           style={{
 
           color: `white`,

@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-// import Image from "../components/image"
 import SEO from "../components/seo"
 import {withScriptjs, withGoogleMap, GoogleMap,Marker} from "react-google-maps"
 import { compose, withProps } from "recompose"
@@ -35,7 +34,8 @@ const IndexPage = () => (
           <img src={require('../images/about.jpg')} alt="jumbotron" className="img-responsive" />
         </Link>
           <div id="seperate"></div>
-          <img src={require('../images/aboutTop.jpg')} alt="Punch and evasion" className="img-responsive" id="about" />
+          <img src={require('../images/aboutTop.jpg')} alt="Punch and evasion"  id="about" />
+          <div id="seperate"></div>
           <div id="typeContainer">
               <h1>What is BK Muzosa Bujinkan</h1>
               <p>Brooklyn Muzosa Bujikan Dojo embraces the spirit of Budo - an armed and unarmed historical style of Martial Arts that pre dates modern practices such a Judo and Akido. Known as a living art, Bujinkan Budo Taijutsu is applicable within our modern culture.Training in the evenings in all weather, we believe the way of Budo, is to practice it in all situations and in all environments.</p>
@@ -43,8 +43,8 @@ const IndexPage = () => (
           </div>
       </div>
         <div id="seperate"></div>
-        <div id="bujinBanner">
-            <img src={require('../images/masaaki-hatsumi.jpg')} alt="Soke" className="img-responsive" id="soke" />
+        <div id="bujinBanner" style={{ marginTop: '250px' }}>
+            <img src={require('../images/masaaki-hatsumi.jpg')} alt="Soke" id="soke" />
             <div id="typeContainer2">
                 <h1>History of the Bujinkan</h1>
 
@@ -52,7 +52,11 @@ const IndexPage = () => (
                 <p>The Bujinkan Dojo was organized in the early 1970's by Masaaki Hatsumi. This organization is comprised of nine distinct schools of ancient Japanese martial arts, with traceable histories from the 9th century and earlier. Hatsumi-sensei inherited these ryuha from his teacher, the late Toshitsugu Takamatsu, in 1972.The Bujinkan Budo Taijutsu system of martial arts emphasizes natural and relaxed body movement. This martial art is comprised of authentic techniques from ancient samurai and ninja combat arts, taught within both their historical contexts as well as within the modern millieu.
 
                     The subtle destruction of the attacker's balance and rhythm and proper control of distance and timing are a primary focus of Bujinkan Budo Taijutsu. These principles allow even smaller persons to overcome larger and more powerful opponents.
-                    <a href="https://www.muzosa.com/articles" target="_blank" ><h3> <u>See more at our main site</u></h3></a>
+                    <a href="https://www.muzosa.com/articles" target="_blank" >
+                        <h3>
+                            <u>See more at our main site</u>
+                        </h3>
+                    </a>
                 </p>
             </div>
         </div>
@@ -67,7 +71,7 @@ const IndexPage = () => (
                 </a>
                 <p>LOCATION:Training takes place from 7:00 pm-9:00 pm at Dance Wave studios 182 4th Ave - Degraw Street</p>
                 <p>Take the R train to Union street and walk to Degraw along 4th ave</p>
-                <img src={require('../images/647.jpg')} alt="Litchfield villa" className="img-responsive" />
+                <img src={require('../images/dancewave.png')} alt="Litchfield villa" className="img-responsive" />
             </div>
         </div>
     </div>
