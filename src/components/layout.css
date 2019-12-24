@@ -1,197 +1,25 @@
-*{list-style-type: none; }
+*{list-style-type: none;color: white; moz-osx-font-smoothing: grayscale;}
+
 body {
-  font-family: Texta-Book,Arial,sans-serif;
   margin: 0 auto;
   position: relative;
   background-color: black;
+  font-family: helvetica-extended,sans-serif;
 }
 
-a{
-  text-decoration: none;
-  text-transform: uppercase;
-  color: white;
-  font-size: 17px;
+#videoBanner{
+ margin: 0 auto;
 }
 
-ul li a:hover{
-  color: black;
-  background-color: white;
-  padding: 35px 30px;
+#about{
+  
 }
 
- h1,p,h3{
-  color: white;
-}
 
-/*HomePage*/
-
-/*#mainBody{*/
-/*  background-color: black;*/
-/*}*/
-/*!*About*!*/
-
-/*#mainBanner{*/
-/*  padding: 0 0 0px 0px;*/
-/*}*/
-
-/*#typeContainer{*/
-/*  margin: -571px 0 0px 115px;*/
-/*  width: 450px;*/
-/*  text-align: center;*/
-/*}*/
-
-/*#typeContainer2{*/
-/*  margin: -455px 0 0 1800px;*/
-/*  width: 450px;*/
-/*  text-align: center;*/
-/*  padding: 0 0 50px;*/
-/*}*/
-
-/*#seperate{*/
-/*    background-color: black;*/
-/*    height: 50px;*/
-/*}*/
-
-.img-responsive{
-  width: 100%;
-}
-
-/*.homeButton{*/
-/*  background-color: black;*/
-/*  padding: 15px;*/
-/*  text-align: center;*/
-/*}*/
-
-/*!* Contact*!*/
-/*#contactInfo{*/
-/*  background-color: black;*/
-/*  text-align: center;*/
-/*  width: 100%;*/
-/*  margin: 0;*/
-/*  padding: 0;*/
-/*}*/
-
-/*#img-contact{*/
-/*     width: 100%;*/
-/* }*/
-
-/*#map{*/
-/*  background-color: white;*/
-/*  width: 100%;*/
-
-/*}*/
-/* Footer */
-
-footer{
-  background-color: black;
-
-}
-
-#footerButtons{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-}
 
 /* Social interactions */
 
-#social{
-  margin: -75px 0 0 100px;
-  padding-bottom: 27px;
-}
-
- .btnSocial{
-   padding: 0px 30px;
- }
-
- .fa {
-     padding: 16px;
-     font-size: 30px;
-     width: 4px;
-     text-align: center;
-     text-decoration: none;
-     border-radius: 50%;
- }
-
-
- .fa:hover {
-     opacity: 0.7;
- }
-
- /* Set a specific color for each brand */
-
- /* Facebook */
- .fa-facebook {
-   color: white;
- }
-
- /* Twitter */
- .fa-twitter {
-     color: white;
- }
 
  /* Mobile */
 
- @media only screen and (max-width: 768px){
-
-   body {
-     font-family: Texta-Book,Arial,sans-serif;
-     margin: 0 auto;
-     position: relative;
-     background-color: black;
-   }
-
-  nav{
-
-  }
-
-  ul li a:hover{
-    color: black;
-    background-color: white;
-    padding: 35px 30px;
-  }
-
-  #logo{
-    padding: 20px 20px;
-    margin: 0 auto;
-  }
-
-
-  h3{
-    text-align: center;
-  }
-
-  #headerButtons{
-    display: none;
-  }
-
-  footer{
-
-  }
-
-  #footerButtons{
-    display: block;
-    text-align: center;
-    padding: 0 0;
-  }
-
-
-/* About Page */
-
-/* #mainBody{
-
-} */
-
-#typeContainer,#typeContainer2{
-  margin: 0 auto;
-  width: 300px;
-  font-size: medium;
-}
-
-#social{
-  margin: 0 0 0 100px;
-  padding-bottom: 27px;
-}
- }
-
- /* Contact */
+ @media only screen and (max-width: 768px){}

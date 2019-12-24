@@ -7,7 +7,9 @@ const Header = ({ siteTitle }) => (
     style={{
       background: `black`,
       marginBottom: `1.45`,
-      paddingBottom:`10px`
+      padding: `20px 15px`,
+      font: `Times`,
+      fontSize:`15px`
     }}
   >
     <div

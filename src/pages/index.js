@@ -27,23 +27,30 @@ const MyMapComponent = compose(
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div id="mainBody">
-      <div id="mainBanner">
+    <div id="body">
+    {/* Video placement  */}
+      <div id="videoBanner">
         <Link
         id="/page-2/">
-          <img src={require('../images/about.jpg')} alt="jumbotron" className="img-responsive" />
+          <img src={require('../images/about.jpg')} alt="placeholder" className="img-responsive" style={{opacity: `0.46`,width: `100%`}}/>
         </Link>
-          <div id="seperate"></div>
-          <img src={require('../images/aboutTop.jpg')} alt="Punch and evasion"  id="about" />
-          <div id="seperate"></div>
+       </div> 
+       {/* Video placement  */}
+          <span id="seperate"></span>
+        {/* First image with ichimonji   */}
+        <div id="about">  
+          <img src={require('../images/aboutTop.jpg')} alt="Punch and evasion" style={{width: `100%`}}/>
           <div id="typeContainer">
-              <h1>What is BK Muzosa Bujinkan</h1>
-              <p>Brooklyn Muzosa Bujikan Dojo embraces the spirit of Budo - an armed and unarmed historical style of Martial Arts that pre dates modern practices such a Judo and Akido. Known as a living art, Bujinkan Budo Taijutsu is applicable within our modern culture.Training in the evenings in all weather, we believe the way of Budo, is to practice it in all situations and in all environments.</p>
-              <p><b>LOCATION:Training takes place from 7:00 pm-9:00 pm on the porch and surrounding grounds of Litchfield Villa in Prospect Park </b></p>
+              <h1 style={{}}>What is BK Muzosa Bujinkan</h1>
+              <p style={{width:`450px`,float: `right`}}>Brooklyn Muzosa Bujikan Dojo embraces the spirit of Budo - an armed and unarmed historical style of Martial Arts that pre dates modern practices such a Judo and Akido. Known as a living art, Bujinkan Budo Taijutsu is applicable within our modern culture.Training in the evenings in all weather, we believe the way of Budo, is to practice it in all situations and in all environments.
+             <b>LOCATION:Training takes place from 7:00 pm-9:00 pm on the porch and surrounding grounds of Litchfield Villa in Prospect Park </b></p>
           </div>
       </div>
+        {/* First image with ichimonji   */}
+
         <div id="seperate"></div>
-        <div id="bujinBanner" style={{ marginTop: '250px' }}>
+         {/* about the bujinkan  */}
+        <div id="aboutBujinkan" style={{ marginTop: '250px' }}>
             <img src={require('../images/masaaki-hatsumi.jpg')} alt="Soke" id="soke" />
             <div id="typeContainer2">
                 <h1>History of the Bujinkan</h1>
@@ -60,10 +67,17 @@ const IndexPage = () => (
                 </p>
             </div>
         </div>
+        {/* about the bujinkan  */}
+
         <div id="seperate"></div>
+
+        {/* Map  */}
         <div id='map'>
             <MyMapComponent isMarkerShown/>
         </div>
+        {/* Map */}
+
+        {/* Contact Info  */}
         <div id="contactBody">
             <div id="contactInfo">
                 <a href="https://www.muzosa.com/contact" target="_blank" >
@@ -71,10 +85,12 @@ const IndexPage = () => (
                 </a>
                 <p>LOCATION:Training takes place from 7:00 pm-9:00 pm at Dance Wave studios 182 4th Ave - Degraw Street</p>
                 <p>Take the R train to Union street and walk to Degraw along 4th ave</p>
-                <img src={require('../images/dancewave.png')} alt="Litchfield villa" className="img-responsive" />
+                <img src={require('../images/647.jpg')} alt="Litchfield villa" className="img-responsive" />
             </div>
         </div>
+        {/* Contact Info  */}
     </div>
+    
   </Layout>
 )
 
