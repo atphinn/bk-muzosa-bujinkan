@@ -16,7 +16,10 @@ body {
 }
 
 
-
+#typeContainer{
+   margin: 0 0 0 200px;
+    padding: 0 0 0 0;
+}
 /* Social interactions */
 
 
