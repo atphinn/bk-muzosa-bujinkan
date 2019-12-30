@@ -41,7 +41,7 @@ const IndexPage = () => (
         <div id="about">
             <div id="typeContainer">
                 <h1 style={{margin: `55px 0 -1px 0px`}}>What is BK Muzosa Bujinkan</h1>
-                <p style={{width: `450px`,float: `right`,margin: `-48px 200px 0 0px`}}>Brooklyn Muzosa Bujikan Dojo embraces the spirit of Budo - an armed and unarmed historical style of Martial Arts that pre dates modern practices such a Judo and Akido. Known as a living art, Bujinkan Budo Taijutsu is applicable within our modern culture.Training in the evenings in all weather, we believe the way of Budo, is to practice it in all situations and in all environments.
+                <p style={{width: `1000px`,float: `right`,margin: `-48px 200px 0 0px`}}>Brooklyn Muzosa Bujikan Dojo embraces the spirit of Budo - an armed and unarmed historical style of Martial Arts that pre dates modern practices such a Judo and Akido. Known as a living art, Bujinkan Budo Taijutsu is applicable within our modern culture.Training in the evenings in all weather, we believe the way of Budo, is to practice it in all situations and in all environments.
                     <b>LOCATION:Training takes place from 7:00 pm-9:00 pm on the porch and surrounding grounds of Litchfield Villa in Prospect Park </b></p>
             </div>
           <img src={require('../images/aboutTop.jpg')} alt="Punch and evasion" style={{width: `100%`}}/>
