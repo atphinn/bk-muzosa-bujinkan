@@ -39,16 +39,12 @@ const IndexPage = () => (
           <span id="seperate"></span>
         {/* First image with ichimonji   */}
         <div id="about">
-            <div id="typeContainer">
+            <div id="typeContainer" style={{transitionDelay: `0.2s`}}>
                 <h1 style={{margin: `55px 0 0px 0px`}}>What is BK Muzosa Bujinkan</h1>
                 <p style={{width: `681px`,float: `right`,margin: `-48px 0px 48px 0px`}}>Brooklyn Muzosa Bujikan Dojo embraces the spirit of Budo - an armed and unarmed historical style of Martial Arts that pre dates modern practices such a Judo and Akido. Known as a living art, Bujinkan Budo Taijutsu is applicable within our modern culture.Training in the evenings in all weather, we believe the way of Budo, is to practice it in all situations and in all environments.</p>
             </div>
           <img src={require('../images/aboutTop.jpg')} alt="Punch and evasion" style={{width: `100%`}}/>
-          {/*<div id="typeContainer">*/}
-          {/*    <h1 style={{margin: `55px 0 -1px 0px`}}>What is BK Muzosa Bujinkan</h1>*/}
-          {/*    <p style={{width: `450px`,float: `right`,margin: `-48px 200px 0 0px`}}>Brooklyn Muzosa Bujikan Dojo embraces the spirit of Budo - an armed and unarmed historical style of Martial Arts that pre dates modern practices such a Judo and Akido. Known as a living art, Bujinkan Budo Taijutsu is applicable within our modern culture.Training in the evenings in all weather, we believe the way of Budo, is to practice it in all situations and in all environments.*/}
-          {/*   <b>LOCATION:Training takes place from 7:00 pm-9:00 pm on the porch and surrounding grounds of Litchfield Villa in Prospect Park </b></p>*/}
-          {/*</div>*/}
+          
       </div>
         {/* First image with ichimonji   */}
 
@@ -69,7 +65,7 @@ const IndexPage = () => (
                     </a>
                 </p>
             </div>
-            <img src={require('../images/masaaki-hatsumi.jpg')} alt="Soke" id="soke" className="img-responsive"/>
+            <img src={require('../images/masaaki-hatsumi.jpg')} alt="Soke" style={{width: `100%`}}/>
         </div>
         {/* about the bujinkan  */}
 
@@ -77,19 +73,19 @@ const IndexPage = () => (
 
         {/* Contact Info  */}
         <div id="contactBody">
-            <div id="contactInfo" style={{textAlign: `center`}}>
+            <div id="contactInfo" style={{textAlign: `center`, width: `451px`, margin: `48px 0 0 48px`}}>
                 <a href="https://www.muzosa.com/contact" target="_blank" >
                     <h1>Contact us to try a free class!</h1>
                 </a>
                 <p>LOCATION:Training takes place from 7:00 pm-9:00 pm at Dance Wave studios 182 4th Ave - Degraw Street</p>
                 <p>Take the R train to Union street and walk to Degraw along 4th ave</p> 
             </div>
-            <img src={require('../images/dancewave.png')} alt="Litchfield villa" className="img-responsive" />
+            <img src={require('../images/dancewave.png')} alt="Litchfield villa" style={{float: `right`, margin: `-146px 57px 0 0px`}} />
         </div>
          
         {/* Contact Info  */}
                 {/* Map  */}
-                <div id='map'>
+                <div id='map' style={{margin:`670px 0 0 0`, width:`100%`}}>
             <MyMapComponent isMarkerShown/>
         </div>
         {/* Map */}
