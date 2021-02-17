@@ -8,13 +8,13 @@ const Header = ({ siteTitle }) => (
       background: `black`,
       marginBottom: `1.45`,
       padding: `20px 15px`,
-      font: `Times`,
+      font: `Arial`,
       fontSize:`15px`
     }}
   >
     <div
       style={{
-        margin: `0 auto`,
+      //  margin: `0 auto`,
 
       }}
     >
@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
-            padding: `0 20px 0 10px`,
+            padding: `0 30px 0 15px`,
           }}
         >
           {siteTitle}
@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
 
           color: `white`,
           textDecoration: `none`,
-          padding: `0 20px 0 0`,
+          padding: `0 30px 0 0`,
           }}
         >
         About
@@ -47,12 +47,12 @@ const Header = ({ siteTitle }) => (
           style={{
           color: `white`,
           textDecoration: `none`,
-          padding: `0 20px 0 0`,
+          padding: `0 30px 0 0`,
           }}
         >
         Contact
         </Link>
-       
+
       </h1>
     </div>
   </header>
