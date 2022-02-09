@@ -7,7 +7,7 @@ import { compose, withProps } from "recompose"
 
 const MyMapComponent = compose(
     withProps({
-        googleMapURL:  "https://maps.googleapis.com/maps/api/js?key=AIzaSyByVYdAAV-bsEE8Qugi0RrJCn2m_5kMpI4&v=3.exp&libraries=geometry,drawing,places",
+        googleMapURL:  "https://maps.googleapis.com/maps/api/js?key=,drawing,places",
         loadingElement: <div style={{ height: `100%` }} />,
         containerElement: <div style={{ height: `400px` }} />,
         mapElement: <div style={{ height: `100%` }} />,
